@@ -1,0 +1,72 @@
+/* Write your CSS here */
+* {
+  list-style-type: none; /* Remove bullets */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    #fff1eb,
+    #fbeded,
+    #f5eaee,
+    #ede8ee,
+    #e6e6eb,
+    #e1e4eb,
+    #dce2ec,
+    #d5e1eb,
+    #cce0ef,
+    #c3e0f3,
+    #b8e0f6,
+    #ace0f9
+  );
+  height: 150vh;
+}
+
+.tabsSection {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.heading {
+  font-size: 50px;
+  font-family: Bree Serif;
+}
+
+.inputSearch {
+  padding: 12px;
+  font-size: 17px;
+  width: 400px;
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right-width: 0px;
+}
+
+.seachedInput {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.searchImg {
+  height: 30px;
+  width: 30px;
+}
+
+.btn {
+  padding: 5.5px;
+  background-color: #ffffff;
+  border-left-width: 0px;
+}
+
+.Apps {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
